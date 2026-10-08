@@ -2,6 +2,8 @@
 
 Web application for booking sports facilities (tennis, basketball, volleyball, soccer, table tennis, cycling) and renting the related equipment. Developed as the final exam project of the **Web Applications** course (M.Sc. Cybersecurity Engineering, Politecnico di Torino).
 
+![Screenshot](./img/screenshot.png)
+
 **Tech stack:** React 19 + Vite + React-Bootstrap (client) · Node.js + Express 5 (REST API) · SQLite · Passport.js
 
 **Security features**
@@ -28,9 +30,7 @@ Test accounts are listed in the *Users Credentials* section below.
 
 ---
 
-# Exam #3: "Sport"
-## Student: s348818 LOGUERCIO POLOSA GABRIELE
-
+# Technical documentation
 
 ## React Client Application Routes
 
@@ -160,10 +160,6 @@ Test accounts are listed in the *Users Credentials* section below.
   mandatory equipment) and a two-step (non-native) delete confirmation.
 
 (only _main_ components are listed; minor ones may be skipped)
-
-## Screenshot
-
-![Screenshot](./img/screenshot.png)
 
 ## Users Credentials
 
