@@ -1,0 +1,29 @@
+.facility-card {
+  min-width: 9rem;
+  border-color: var(--bs-primary-border-subtle);
+  transition: border-color 0.15s ease;
+}
+
+.facility-card:hover {
+  border-color: var(--bs-primary);
+}
+
+.equipment-badge {
+  font-size: 0.85rem;
+}
+
+/* Signature treatment for the "available / total" figures: a tabular,
+   scoreboard-style numeral, since these counts are the single most
+   important piece of information on the home page. */
+.scoreboard-figure {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--bs-primary-text-emphasis);
+}
+
+.scoreboard-figure .scoreboard-total {
+  color: var(--bs-secondary-color);
+  font-weight: 400;
+}

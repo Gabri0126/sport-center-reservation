@@ -1,0 +1,50 @@
+:root {
+  font-family: -apple-system, system-ui, "Segoe UI", Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Sport Center palette: a confident court green instead of default
+     Bootstrap blue, on a cool off-white court-line background. */
+  --bs-primary: #1e7145;
+  --bs-primary-rgb: 30, 113, 69;
+  --bs-primary-text-emphasis: #14512f;
+  --bs-primary-bg-subtle: #e3f0e8;
+  --bs-primary-border-subtle: #b9dcc6;
+  --bs-link-color: #1e7145;
+  --bs-link-color-rgb: 30, 113, 69;
+  --bs-link-hover-color: #14512f;
+  --bs-link-hover-color-rgb: 20, 81, 47;
+
+  --bs-body-bg: #f7f8f6;
+  --bs-body-color: #202824;
+}
+
+body {
+  margin: 0;
+}
+
+/* "Stadium navy" instead of flat black for the navbar. */
+.navbar.bg-dark {
+  --bs-navbar-active-color: #ffffff;
+  background-color: #142033 !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1e7145;
+  --bs-btn-border-color: #1e7145;
+  --bs-btn-hover-bg: #14512f;
+  --bs-btn-hover-border-color: #14512f;
+  --bs-btn-active-bg: #123f26;
+  --bs-btn-active-border-color: #123f26;
+}
+
+/* Headings and nav links get a touch of scoreboard-signage character:
+   slightly heavier weight and letter-spacing, nothing louder than that. */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar-brand, .nav-link {
+  letter-spacing: 0.01em;
+}
